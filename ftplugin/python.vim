@@ -10,7 +10,7 @@ import subprocess
 
 status, prefix = subprocess.getstatusoutput('pyenv prefix')
 
-if not(status) and 'python' in prefix:
+if not(status) and 'pyenv' in prefix:
   version = prefix.split('/')[-1]
   v1 = ''.join(version.split('.')[:2])
   v2 = '.'.join(version.split('.')[:2])
@@ -21,7 +21,6 @@ if not(status) and 'python' in prefix:
     '{}/lib/python{}/lib-dynload'.format(prefix, v2),
     '{}/lib/python{}/site-packages'.format(prefix, v2)
   ]
-
 EOF
 endfunction
 
