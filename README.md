@@ -1,6 +1,7 @@
 # vim-pyenv
-this plugin is automatic sys.path changer for pyenv  
-use it with jedi-vim  
+this plugin is automatic sys.path changer for pyenv
+
+use it with jedi-vim
 
 ## Requirement
 - pyenv
@@ -14,6 +15,4 @@ Plug 'shepabashi/vim-pyenv', {'for': 'python'}
 ```
 
 ## Todo
-- Speed up (vim script optimization)
-- Change selecting system python
-
+- change python version in vim
