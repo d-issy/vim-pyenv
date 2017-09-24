@@ -19,7 +19,8 @@ if not(status) and 'pyenv' in prefix:
     '{}/lib/python{}.zip'.format(prefix, v1),
     '{}/lib/python{}'.format(prefix, v2),
     '{}/lib/python{}/lib-dynload'.format(prefix, v2),
-    '{}/lib/python{}/site-packages'.format(prefix, v2)
+    '{}/lib/python{}/site-packages'.format(prefix, v2),
+    '_vim_path_'
   ]
 EOF
 endfunction
